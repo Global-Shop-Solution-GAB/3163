@@ -1,0 +1,235 @@
+Program.Sub.ScreenSU.Start
+gui.F_Addl_Field_Names..create
+gui.F_Addl_Field_Names..caption("Additional Inventory Field Names")
+gui.F_Addl_Field_Names..size(5975,4150)
+gui.F_Addl_Field_Names..position(0,0)
+gui.F_Addl_Field_Names..event(unload,f_addl_field_names_unload)
+gui.F_Addl_Field_Names..alwaysontop(False)
+gui.F_Addl_Field_Names..fontname("Arial")
+gui.F_Addl_Field_Names..fontsize(8)
+gui.F_Addl_Field_Names..forecolor(0)
+gui.F_Addl_Field_Names..fontstyle(,,,,)
+gui.F_Addl_Field_Names..BackColor(-2147483633)
+gui.F_Addl_Field_Names..controlbox(True)
+gui.F_Addl_Field_Names..maxbutton(False)
+gui.F_Addl_Field_Names..minbutton(True)
+gui.F_Addl_Field_Names..mousepointer(0)
+gui.F_Addl_Field_Names..moveable(True)
+gui.F_Addl_Field_Names..sizeable(False)
+gui.F_Addl_Field_Names..ShowInTaskBar(True)
+gui.F_Addl_Field_Names..titlebar(True)
+gui.F_Addl_Field_Names.txt1_User.create(textbox,"",True,1700,300,0,200,400,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.lbl2_User.create(label,"User 2 (Date)",True,1935,255,1,2100,200,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl3_User.create(label,"User 3 (Date)",True,1935,255,1,4000,200,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.txt2_User.create(textbox,"",True,1700,300,0,2100,400,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt3_User.create(textbox,"",True,1700,300,0,4000,400,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.lbl1_User.create(label,"User 1 (Date)",True,1935,255,1,200,200,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl4_User.create(label,"User 4 (Date)",True,1935,255,1,200,800,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl5_User.create(label,"User 5 (Numeric)",True,1935,255,1,2100,800,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl6_User.create(label,"User 6 (Numeric)",True,1935,255,1,4000,800,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl7_User.create(label,"User 7 (Numeric)",True,1935,255,1,200,1400,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.txt4_User.create(textbox,"",True,1700,300,0,200,1000,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt5_User.create(textbox,"",True,1700,300,0,2100,1000,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt6_User.create(textbox,"",True,1700,300,0,4000,1000,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.lbl8_User.create(label,"User 8 (Numeric)",True,1935,255,1,2100,1400,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl9_User.create(label,"User 9 (Numeric)",True,1935,255,1,4000,1400,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.txt7_User.create(textbox,"",True,1700,300,0,200,1600,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt8_User.create(textbox,"",True,1700,300,0,2100,1600,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt9_User.create(textbox,"",True,1700,300,0,4000,1600,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.lbl10_User.create(label,"User 10 (Alphanumeric)",True,1935,255,1,200,2000,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl11_User.create(label,"User 11 (Alphanumeric)",True,1935,255,1,2100,2000,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl12_User.create(label,"User 12 (Alphanumeric)",True,1935,255,1,4000,2000,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.txt10_User.create(textbox,"",True,1700,300,0,200,2200,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt11_User.create(textbox,"",True,1700,300,0,2100,2200,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt12_User.create(textbox,"",True,1700,300,0,4000,2200,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.lbl13_User.create(label,"User 13 (Alphanumeric)",True,1935,255,1,200,2600,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl15_User.create(label,"User 15 (Alphanumeric)",True,1935,255,1,4000,2600,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.lbl14_User.create(label,"User 14 (Alphanumeric)",True,1935,255,1,2100,2600,True,0,Arial,8,-2147483633,0)
+gui.F_Addl_Field_Names.txt13_User.create(textbox,"",True,1700,300,0,200,2800,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt14_User.create(textbox,"",True,1700,300,0,2100,2800,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.txt15_User.create(textbox,"",True,1700,300,0,4000,2800,True,0,Arial,8,-2147483643,1)
+gui.F_Addl_Field_Names.cmdSave.create(button)
+gui.F_Addl_Field_Names.cmdSave.caption("Save")
+gui.F_Addl_Field_Names.cmdSave.visible(True)
+gui.F_Addl_Field_Names.cmdSave.size(1000,375)
+gui.F_Addl_Field_Names.cmdSave.zorder(0)
+gui.F_Addl_Field_Names.cmdSave.position(200,3200)
+gui.F_Addl_Field_Names.cmdSave.enabled(True)
+gui.F_Addl_Field_Names.cmdSave.fontname("Arial")
+gui.F_Addl_Field_Names.cmdSave.fontsize(8)
+gui.F_Addl_Field_Names.cmdSave.event(click,cmdsave_click)
+gui.F_Addl_Field_Names.cmdReset.create(button)
+gui.F_Addl_Field_Names.cmdReset.caption("Reset")
+gui.F_Addl_Field_Names.cmdReset.visible(True)
+gui.F_Addl_Field_Names.cmdReset.size(1000,375)
+gui.F_Addl_Field_Names.cmdReset.zorder(0)
+gui.F_Addl_Field_Names.cmdReset.position(1300,3200)
+gui.F_Addl_Field_Names.cmdReset.enabled(True)
+gui.F_Addl_Field_Names.cmdReset.fontname("Arial")
+gui.F_Addl_Field_Names.cmdReset.fontsize(8)
+gui.F_Addl_Field_Names.cmdReset.event(click,cmdreset_click)
+
+
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+Gui.F_Addl_Field_Names.cmdSave.Enabled(False)
+Gui.F_Addl_Field_Names.cmdReset.Enabled(False)
+F.ODBC.Connection!conx.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)
+Gui.F_Addl_Field_Names..Show
+
+F.Intrinsic.Control.CallSub("Load")
+Gui.F_Addl_Field_Names.cmdSave.Enabled(True)
+Gui.F_Addl_Field_Names.cmdReset.Enabled(True)
+
+Program.Sub.Main.End
+
+program.sub.f_addl_field_names_unload.start
+F.ODBC.Connection!conx.Close
+F.Intrinsic.Control.End
+
+program.sub.f_addl_field_names_unload.End
+
+program.sub.cmdreset_click.start
+Gui.F_Addl_Field_Names.cmdSave.Enabled(False)
+Gui.F_Addl_Field_Names.cmdReset.Enabled(False)
+
+F.Intrinsic.Control.CallSub("Reset")
+
+Gui.F_Addl_Field_Names.cmdSave.Enabled(True)
+Gui.F_Addl_Field_Names.cmdReset.Enabled(True)
+
+
+program.sub.cmdreset_click.End
+
+program.sub.cmdsave_click.start
+Gui.F_Addl_Field_Names.cmdSave.Enabled(False)
+Gui.F_Addl_Field_Names.cmdReset.Enabled(False)
+
+F.Intrinsic.Control.CallSub("Save")
+
+Gui.F_Addl_Field_Names.cmdSave.Enabled(True)
+Gui.F_Addl_Field_Names.cmdReset.Enabled(True)
+
+program.sub.cmdsave_click.End
+
+Program.Sub.Load.Start
+F.ODBC.Connection!conx.OpenRecordsetRO("rstLoad","Select * from ATG_3163_FIELD_NAMES")
+
+F.Intrinsic.Control.If(V.ODBC.conx!rstLoad.EOF,=,True)
+	F.Intrinsic.Control.CallSub("Reset")
+F.Intrinsic.Control.Else
+	Gui.F_Addl_Field_Names.txt1_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_1)
+	Gui.F_Addl_Field_Names.txt2_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_2)
+	Gui.F_Addl_Field_Names.txt3_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_3)
+	Gui.F_Addl_Field_Names.txt4_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_4)
+	Gui.F_Addl_Field_Names.txt5_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_5)
+	Gui.F_Addl_Field_Names.txt6_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_6)
+	Gui.F_Addl_Field_Names.txt7_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_7)
+	Gui.F_Addl_Field_Names.txt8_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_8)
+	Gui.F_Addl_Field_Names.txt9_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_9)
+	Gui.F_Addl_Field_Names.txt10_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_10)
+	Gui.F_Addl_Field_Names.txt11_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_11)
+	Gui.F_Addl_Field_Names.txt12_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_12)
+	Gui.F_Addl_Field_Names.txt13_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_13)
+	Gui.F_Addl_Field_Names.txt14_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_14)
+	Gui.F_Addl_Field_Names.txt15_User.Text(V.ODBC.conx!rstLoad.FieldValTrim!USER_15)
+F.Intrinsic.Control.EndIf
+
+F.ODBC.conx!rstLoad.Close
+
+Program.Sub.Load.End
+
+Program.Sub.Save.Start
+V.Local.iComplete.Declare(Long,0)
+
+F.Intrinsic.Control.If(V.screen.F_Addl_Field_Names!txt1_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt2_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt3_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt4_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt5_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt6_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt7_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt8_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt9_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt10_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt11_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt12_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt13_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt14_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.ElseIf(V.screen.F_Addl_Field_Names!txt15_User.Text,=,"")
+	V.Local.iComplete.Set(1)
+F.Intrinsic.Control.EndIf
+
+F.Intrinsic.Control.If(V.Local.iComplete,=,1)
+	F.Intrinsic.UI.Msgbox("Fields not complete")
+	F.Intrinsic.Control.ExitSub
+F.Intrinsic.Control.EndIf
+
+F.ODBC.Connection!conx.OpenRecordsetRW("rstSave","Select * from ATG_3163_FIELD_NAMES")
+F.Intrinsic.Control.If(V.ODBC.conx!rstSave.EOF,=,True)
+	F.ODBC.conx!rstSave.AddNew
+F.Intrinsic.Control.EndIf
+
+F.ODBC.conx!rstSave.Set!USER_1(V.Screen.F_Addl_Field_Names!txt1_User.Text)
+F.ODBC.conx!rstSave.Set!USER_2(V.Screen.F_Addl_Field_Names!txt2_User.Text)
+F.ODBC.conx!rstSave.Set!USER_3(V.Screen.F_Addl_Field_Names!txt3_User.Text)
+F.ODBC.conx!rstSave.Set!USER_4(V.Screen.F_Addl_Field_Names!txt4_User.Text)
+F.ODBC.conx!rstSave.Set!USER_5(V.Screen.F_Addl_Field_Names!txt5_User.Text)
+F.ODBC.conx!rstSave.Set!USER_6(V.Screen.F_Addl_Field_Names!txt6_User.Text)
+F.ODBC.conx!rstSave.Set!USER_7(V.Screen.F_Addl_Field_Names!txt7_User.Text)
+F.ODBC.conx!rstSave.Set!USER_8(V.Screen.F_Addl_Field_Names!txt8_User.Text)
+F.ODBC.conx!rstSave.Set!USER_9(V.Screen.F_Addl_Field_Names!txt9_User.Text)
+F.ODBC.conx!rstSave.Set!USER_10(V.Screen.F_Addl_Field_Names!txt10_User.Text)
+F.ODBC.conx!rstSave.Set!USER_11(V.Screen.F_Addl_Field_Names!txt11_User.Text)
+F.ODBC.conx!rstSave.Set!USER_12(V.Screen.F_Addl_Field_Names!txt12_User.Text)
+F.ODBC.conx!rstSave.Set!USER_13(V.Screen.F_Addl_Field_Names!txt13_User.Text)
+F.ODBC.conx!rstSave.Set!USER_14(V.Screen.F_Addl_Field_Names!txt14_User.Text)
+F.ODBC.conx!rstSave.Set!USER_15(V.Screen.F_Addl_Field_Names!txt15_User.Text)
+
+F.ODBC.conx!rstSave.Update
+
+F.ODBC.Conx!rstSave.Close
+
+Program.Sub.Save.End
+
+Program.Sub.Reset.Start
+Gui.F_Addl_Field_Names.txt1_User.Text("User Field 1")
+Gui.F_Addl_Field_Names.txt2_User.Text("User Field 2")
+Gui.F_Addl_Field_Names.txt3_User.Text("User Field 3")
+Gui.F_Addl_Field_Names.txt4_User.Text("User Field 4")
+Gui.F_Addl_Field_Names.txt5_User.Text("User Field 5")
+Gui.F_Addl_Field_Names.txt6_User.Text("User Field 6")
+Gui.F_Addl_Field_Names.txt7_User.Text("User Field 7")
+Gui.F_Addl_Field_Names.txt8_User.Text("User Field 8")
+Gui.F_Addl_Field_Names.txt9_User.Text("User Field 9")
+Gui.F_Addl_Field_Names.txt10_User.Text("User Field 10")
+Gui.F_Addl_Field_Names.txt11_User.Text("User Field 11")
+Gui.F_Addl_Field_Names.txt12_User.Text("User Field 12")
+Gui.F_Addl_Field_Names.txt13_User.Text("User Field 13")
+Gui.F_Addl_Field_Names.txt14_User.Text("User Field 14")
+Gui.F_Addl_Field_Names.txt15_User.Text("User Field 15")
+
+Program.Sub.Reset.End
+
+Program.Sub.Comments.Start
+${$0$}$$}$$}$12:00:00 AM$}$False
+Program.Sub.Comments.End
